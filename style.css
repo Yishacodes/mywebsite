@@ -91,29 +91,46 @@ padding-top:250px;
 .code-easy p{
     font-size: 32px;
     font-weight:800;
+    text-align: center;
+
 }
 
 .code-easy{
     text-align: center;
-    margin-top: 220px;
-    margin-bottom: 50px;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(209, 225, 230, 0.897);
+
 }
+
 
 .two-col{
     display:grid;  
- grid-template-columns:auto auto;
- width:1000px;
+ grid-template-columns:1fr auto;
+ width:100vw;
  margin:auto auto;
- column-gap: 0;
 }
+
+.two-col2{
+    display:grid;  
+ grid-template-columns:1fr auto;
+ width:100vw;
+ margin: -5px; auto;
+ 
+}
+
+
 .col-2 img{
     width:450px;
+    height: auto;
 }
 .col-1 a {
     font-size: 19px;
     display: block;
-margin-top:100px;
+margin-top:80px;
 padding: 0 30px;
+color: #000;
+text-decoration: none;
 
 }
 
@@ -123,13 +140,16 @@ h3{
  
 .col-1{
     background-color: aqua;
+    height: 300px;
 }
 
 .cc2{
     background-color: tomato;
+
 }
 
 .cc2 a{
+    text-decoration: none;
     color: white;
 }
 
@@ -183,7 +203,7 @@ text-align: justify;
 
 
 .carousel {
-    width: 80vw;
+    width: 100vw;
     height: 250px;
     border-radius: 3px;
     overflow: hidden;
